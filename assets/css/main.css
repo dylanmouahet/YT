@@ -1,0 +1,201 @@
+body
+	{
+		padding-top: 50px;
+		padding-bottom: 0px;
+	}
+
+header nav
+	{
+		background-image: linear-gradient(90deg, #ff5722d1, #ff4646);
+		color: white;
+	}
+
+nav ul :hover
+	{
+		background-image: linear-gradient(90deg, #31b0d5, #46b8da);
+		font-style: italic;
+		font-family: initial;	
+	}
+
+nav #deroulant ul :hover
+	{
+		background-image: linear-gradient(90deg, #31b0d5, #46b8da);
+		//font-style: italic;
+		font-family: initial;	
+	}
+
+header form
+	{
+		margin-right: 0px;
+	}
+
+#text-menu, #text-logo	
+	{
+		color: white;
+	}
+
+#text-menu
+	{
+		font-size: 18px;
+		
+	}
+
+#text-logo
+	{
+		font-size: 20px;
+		font-family: Kristen ITC;
+		font-weight: bolder;
+	}
+
+#text-logo img
+	{
+		display: inline-block;
+	}
+
+footer
+	{
+		background: linear-gradient(90deg, #31b0d5, #46b8da);
+		margin-top: 80px;
+	}
+
+footer p
+	{
+		font-size: 18px;
+		font-style: italic;
+		color: black;
+		font-weight: bolder;
+		text-align: center;
+	}
+
+footer h4
+	{
+		text-align: center;
+		font-weight: bold;
+		padding-bottom: 30px;
+		font-size: 22px;
+	}
+
+footer ul
+	{
+		list-style-type: none;
+		margin-left: 30px;
+		font-size: 15px;
+		//text-align: center;
+	}
+
+footer ul li a
+	{
+		text-decoration: none;
+		color: #fff;
+	}
+
+footer span
+	{
+		color: #fff;
+	}
+
+
+#slide
+	{
+		padding-left: 0px;
+
+	}
+
+#slide b
+	{
+		font-size: 35px;
+	}
+
+#menu b
+	{
+		font-size: 18px;
+		padding-right: 10px;
+	}
+
+#btn_user a img
+	{
+		margin-top: 3px;
+	}
+
+#p_user
+	{
+		display: inline-block;
+	}
+
+.incr
+	{
+		padding-right: 10px;
+	}
+
+.bloc
+	{
+		margin-top: 30px;
+	}
+
+.lincr ol a:hover
+	{
+		font-style: italic;
+		color: blue;
+	}
+
+.btn-centrer 
+	{
+		width: 100%; 
+		display:block; 
+		margin: 0 auto;
+		background-image: linear-gradient(90deg, #ff5722d1, #ff4646);
+		color: white;
+	}
+
+#tableau td
+	{
+		margin-left: 50px;
+	}
+
+.info_profil .titre
+	{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+.info_profil .tinfo
+	{
+		font-size: 18px;
+		font-style: italic;
+	}
+
+.blocs
+	{
+		margin-top: 50px;
+	}
+
+.t_reser
+	{
+		color: #fff;
+		font-size: 18px;
+		font-style: italic;
+		font-weight: bold;
+		margin-top: 2px;
+	}
+
+.form_reser
+	{
+		text-align: center;
+		background: linear-gradient(90deg, #31b0d5, #46b8da);
+		padding: 10px;
+		margin-top: 20px;
+		box-shadow: lightgrey 10px 12px 10px 10px;
+		border-radius: 5px;
+	}
+
+.form_reser h3
+	{
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+.carte
+	{
+		margin-top: 120px;
+		height: 200px;
+	}

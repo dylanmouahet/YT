@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr" dir="ltr">
+	<meta charset="utf-8">
+	<title> Yakro Tourisme - Contact </title>
+	<link rel="icon" href="public/images/favicon.ico" sizes="32x32" type="image/ico">
+
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="nav-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+
+				<a href="index.html" class="navbar-brand  nomsite" id="text-logo"> <img src="public/images/logo.jpg" class="img-responsive img-circle" width="30" height="30"> YT </a>
+			</div>
+			<div class="collapse navbar-collapse" id="menu">
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+							<input type="text" name="login" placeholder="Login" class="form-control input-sm" aria-describedby="basic-addon1" required>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon2"> <span class="glyphicon glyphicon-eye-close" id="connect-icon"></span> </span> 
+							<input type="password" name="password" placeholder="Mot de Passe" class="form-control input-sm" aria-describedby="basic-addon2" required>
+						</div>
+					</div>
+					<input type="submit" name="connecter" value="connexion" class="btn btn-info btn-sm">
+					<a href="" data-toggle="modal" data-target="#modal_inscription" id="text-menu" class="incr">S'inscrire</a>
+					</form>
+
+					<ul class="nav navbar-nav" >
+						<li><a href="index.html" id="text-menu">Accueil</a></li>
+						<li><a href="siteTouristique.html" id="text-menu">Sites Touristiques</a></li>
+						<li class="dropdown"> 
+							<a href="#" class="dropdown" data-toggle="dropdown" id="text-menu">Réservation<span class="caret"></span></a> 
+							<ul class="dropdown-menu" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646);">
+								<li><a href="hotel.html" id="text-menu">Hôtels</a></li>
+								<li><a href="siteTouristique.html" id="text-menu">Visites Guidées</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html" id="text-menu">Contact</a></li>
+						<li><a href="#" id="text-menu">A Propos</a></li>
+					</ul>
+				
+			</div>
+			
+		</nav>
+	</header>
+
+
+
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6 bloc col-md-offset-3" style="margin-bottom: 20px;">
+			<p class="text-center">
+				<img src="public/images/logo1.jpg" height="100" width="100" class="img-circle">
+			</p>
+			<h1 class="text-center"> Nous Contacter </h1>
+
+			<form action="">
+				<div class="row">
+					<div class="col-md-6">
+						<input type="text" name="nom" placeholder="Votre nom" class="form-control" required>
+					</div>
+					<div class="col-md-6">
+						<input type="text" name="prenom" placeholder="Votre prenom" class="form-control" required>
+					</div>
+				</div><br>
+				<input type="text" name="email" placeholder="Votre Email" class="form-control" required>
+				<br>
+				<textarea class="form-control" name="message" placeholder="Votre message" rows="8"></textarea><br>
+				
+				<p class="text-center">
+					<button class="btn btn-lg" type="submit" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white; width: 30%;">Envoyer</button>
+				</p>
+				
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Debut de la modale d'inscription	-->
+	
+<div id="modal_inscription" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal"> <span class="glyphicon glyphicon-remove-circle"></span> </button>
+
+				<h1 class="modal-title">Inscription</h1>
+			</div>
+
+			<div class="modal-body">
+				<form>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+								<input type="text" name="nom" placeholder="Nom" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+								<input type="text" name="prenom" placeholder="Prenom" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-envelope" id="connect-icon"></span> </span> 
+								<input type="email" name="email" placeholder="E-mail" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group"> 
+								<span class="input-group-addon" id="basic-addon1">Sexe</span> 
+									<select class="form-control" name="sexe" required>
+										<option selected>--- Selectionner ---</option>
+										<option value="M">Homme</option>
+										<option value="F">Femme</option>
+									</select>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-globe" id="connect-icon"></span> </span> 
+								<input type="text" name="pays" placeholder="Pays" class="form-control" aria-describedby="basic-addon1" list="listepays" required >
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-pencil" id="connect-icon"></span> </span> 
+								<input type="text" name="ville" placeholder="Ville" class="form-control" aria-describedby="basic-addon1" list="listeville" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-envelope" id="connect-icon"></span> </span> 
+								<input type="text" name="login" placeholder="Login" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-lock" id="connect-icon"></span> </span>
+								<input type="password" name="password" placeholder="Mot de passe" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-lock" id="connect-icon"></span> </span>
+								<input type="password" name="cpassword" placeholder="Confirmer mot de passe" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" name="valider" value="S'inscrire" class="btn btn-lg btn-centrer">					
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<!-- Fin de la modale d'inscription	-->
+
+<footer>
+	<div class="row footer">
+		<div class="col-md-3">
+			<h4>Services</h4>
+			<ul>
+				<li><a href="siteTouristique.html">Visites Guidée</a></li>
+				<br>
+				<li><a href="hotel.html">Hôtel</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Top Destination</h4>
+			<ul>
+				<li><a href="#">La Basilique Notre dame de la Paix</a></li>
+				<li><a href="#">Le lac aux caimains</a></li>
+				<li><a href="#">La Fondation Felix Houphouet Boigny</a></li>
+				<li><a href="#">Le Palais Presidentiel</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Top Réservation</h4>
+			<ul>
+				<li><a href="#">Hôtel President</a></li>
+				<li><a href="#">Hôtel Parlementaire</a></li>
+				<li><a href="#">Hôtel Fondy</a></li>
+				<li><a href="#">Hôtel Le Rocher</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Contact</h4>
+			<ul>
+				<li><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:yakro@tourisme.ci">yakro@tourisme.ci</a></li>
+				<br>
+				<li><span class="glyphicon glyphicon-earphone"></span> <a href="#"> +225 00 00 00 00 </a></li>
+			</ul>
+			
+		</div>
+	</div>
+	<p>&copy; 2019 YakroTourisme</p>
+</footer>
+
+<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr" dir="ltr">
+	<meta charset="utf-8">
+	<title> Yakro Tourisme - Sites </title>
+	<link rel="icon" href="public/images/favicon.ico" sizes="32x32" type="image/ico">
+
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="nav-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+
+				<a href="index.html" class="navbar-brand  nomsite" id="text-logo"> <img src="public/images/logo.jpg" class="img-responsive img-circle" width="30" height="30"> YT </a>
+			</div>
+			<div class="collapse navbar-collapse" id="menu">
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+							<input type="text" name="login" placeholder="Login" class="form-control input-sm" aria-describedby="basic-addon1" required>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon2"> <span class="glyphicon glyphicon-eye-close" id="connect-icon"></span> </span> 
+							<input type="password" name="password" placeholder="Mot de Passe" class="form-control input-sm" aria-describedby="basic-addon2" required>
+						</div>
+					</div>
+					<input type="submit" name="connecter" value="connexion" class="btn btn-info btn-sm">
+					<a href="" data-toggle="modal" data-target="#modal_inscription" id="text-menu" class="incr">S'inscrire</a>
+					</form>
+
+					<ul class="nav navbar-nav" >
+						<li><a href="index.html" id="text-menu">Accueil</a></li>
+						<li><a href="siteTouristique.html" id="text-menu">Sites Touristiques</a></li>
+						<li class="dropdown"> 
+							<a href="#" class="dropdown" data-toggle="dropdown" id="text-menu">Réservation<span class="caret"></span></a> 
+							<ul class="dropdown-menu" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646);">
+								<li><a href="hotel.html" id="text-menu">Hôtels</a></li>
+								<li><a href="siteTouristique.html" id="text-menu">Visites Guidées</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html" id="text-menu">Contact</a></li>
+						<li><a href="#" id="text-menu">A Propos</a></li>
+					</ul>
+				
+			</div>
+			
+		</nav>
+	</header>
+
+
+
+
+
+
+
+
+<div class="container-fluid ">
+  <div class="row blocs">
+    <h1 class="text-center" style="color: #ff4646; font-family: Snell Roundhand; font-size: 80px;">Sites Touristiques</h1>
+    <div class="blocs"></div><div class="blocs"></div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/1.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Basilique Notre Dame</h3>
+            <p>L'une des plus grandes Basilique du monde...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Basilique Notre Dame de la PAix" data-content="La basilique Notre-Dame de la Paix de Yamoussoukro est l’édifice religieux catholique le plus grand au monde. Son apparence rappelle celle de la basilique Saint-Pierre à Rome. Située à Yamoussoukro, capitale de la Côte d'Ivoire, son emplacement a été choisi par le premier président du pays, Félix Houphouët-Boigny, en 1983." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="moncompte.php?page=reservation" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/2.jpg" alt="...">
+        <div class="caption">
+
+            <h3 class="text-center">Le lac aux caïmans</h3>
+
+            <p>Les caïmans de Yamoussoukro peuplent le lac entourant le Palais présidentiel...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Le lac aux caïmans" data-content="Les caïmans de Yamoussoukro peuplent le lac entourant le Palais présidentiel de Yamoussoukro, construit sur le site de N'Gokro. Il s'agit de crocodiles du Nil. Ces bêtes pèsent près d'une tonne chacune et mesurent jusqu'à six mètres de long. Elles peuvent faire des sauts de plusieurs mètres pour saisir la nourriture qui leur est donnée quotidiennement (à 17h00)." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/3.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">La Fondation FHB</h3>
+            <p>Créée en 1973 sous le nom de Fondation Félix Houphouët-Boigny, elle devient...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Fondation FHB" data-content="Créée en 1973 sous le nom de Fondation Félix Houphouët-Boigny, elle devient en 1997 la Fondation Félix Houphouët-Boigny pour la recherche de la paix. Elle est à l'origine du Congrès international sur la paix dans l'esprit des hommes en 1989 et de la déclaration de Yamoussoukro pour la paix en 1997, tous deux placés et organisés sous l'égide de l'UNESCO." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/4.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Le Palais Présidentiel</h3>
+            <p>Le palais présidentiel de Yamoussoukro, œuvre de l'architecte...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Le palais présidentiel" data-content="Le palais présidentiel de Yamoussoukro, œuvre de l'architecte Olivier-Clément Cacoub, fut construit à la demande du président-fondateur de la République de Côte d'Ivoire Félix Houphouët-Boigny (c'est dans ce palais que se trouve le caveau familial où ce dernier est inhumé" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+
+
+  <div class="row blocs">
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/5.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Maison des députés</h3>
+            <p>Tres belle architecture réalisé par l'architecte...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Basilique Notre Dame de la PAix" data-content="La basilique Notre-Dame de la Paix de Yamoussoukro est l’édifice religieux catholique le plus grand au monde. Son apparence rappelle celle de la basilique Saint-Pierre à Rome. Située à Yamoussoukro, capitale de la Côte d'Ivoire, son emplacement a été choisi par le premier président du pays, Félix Houphouët-Boigny, en 1983." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/8.jpg" alt="...">
+        <div class="caption">
+
+            <h3 class="text-center">L'INPHB</h3>
+
+            <p>Les caïmans de Yamoussoukro peuplent le lac entourant le Palais présidentiel...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Le lac aux caïmans" data-content="Les caïmans de Yamoussoukro peuplent le lac entourant le Palais présidentiel de Yamoussoukro, construit sur le site de N'Gokro. Il s'agit de crocodiles du Nil. Ces bêtes pèsent près d'une tonne chacune et mesurent jusqu'à six mètres de long. Elles peuvent faire des sauts de plusieurs mètres pour saisir la nourriture qui leur est donnée quotidiennement (à 17h00)." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/9.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">L'Aeroport</h3>
+            <p>Créée en 1973 sous le nom de Fondation Félix Houphouët-Boigny, elle devient...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Fondation FHB" data-content="Créée en 1973 sous le nom de Fondation Félix Houphouët-Boigny, elle devient en 1997 la Fondation Félix Houphouët-Boigny pour la recherche de la paix. Elle est à l'origine du Congrès international sur la paix dans l'esprit des hommes en 1989 et de la déclaration de Yamoussoukro pour la paix en 1997, tous deux placés et organisés sous l'égide de l'UNESCO." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/11.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">La grande mosquée</h3>
+            <p>Le palais présidentiel de Yamoussoukro, œuvre de l'architecte...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Le palais présidentiel" data-content="Le palais présidentiel de Yamoussoukro, œuvre de l'architecte Olivier-Clément Cacoub, fut construit à la demande du président-fondateur de la République de Côte d'Ivoire Félix Houphouët-Boigny (c'est dans ce palais que se trouve le caveau familial où ce dernier est inhumé" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+
+
+
+  <div class="row blocs">
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/12.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Le grand marché</h3>
+            <p>L'une des plus grandes Basilique du monde...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Basilique Notre Dame de la PAix" data-content="La basilique Notre-Dame de la Paix de Yamoussoukro est l’édifice religieux catholique le plus grand au monde. Son apparence rappelle celle de la basilique Saint-Pierre à Rome. Située à Yamoussoukro, capitale de la Côte d'Ivoire, son emplacement a été choisi par le premier président du pays, Félix Houphouët-Boigny, en 1983." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/2.jpg" alt="...">
+        <div class="caption">
+
+            <h3 class="text-center">Le lac aux caïmans</h3>
+
+            <p>Les caïmans de Yamoussoukro peuplent le lac entourant le Palais présidentiel...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Le lac aux caïmans" data-content="Les caïmans de Yamoussoukro peuplent le lac entourant le Palais présidentiel de Yamoussoukro, construit sur le site de N'Gokro. Il s'agit de crocodiles du Nil. Ces bêtes pèsent près d'une tonne chacune et mesurent jusqu'à six mètres de long. Elles peuvent faire des sauts de plusieurs mètres pour saisir la nourriture qui leur est donnée quotidiennement (à 17h00)." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/3.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">La Fondation FHB</h3>
+            <p>Créée en 1973 sous le nom de Fondation Félix Houphouët-Boigny, elle devient...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Fondation FHB" data-content="Créée en 1973 sous le nom de Fondation Félix Houphouët-Boigny, elle devient en 1997 la Fondation Félix Houphouët-Boigny pour la recherche de la paix. Elle est à l'origine du Congrès international sur la paix dans l'esprit des hommes en 1989 et de la déclaration de Yamoussoukro pour la paix en 1997, tous deux placés et organisés sous l'égide de l'UNESCO." style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/visites/4.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Le Palais Présidentiel</h3>
+            <p>Le palais présidentiel de Yamoussoukro, œuvre de l'architecte...</p>
+            <p class="text-center">
+              <a class="btn btn-outline-light" role="button" data-toggle="popover" data-placement="top" title="Le palais présidentiel" data-content="Le palais présidentiel de Yamoussoukro, œuvre de l'architecte Olivier-Clément Cacoub, fut construit à la demande du président-fondateur de la République de Côte d'Ivoire Félix Houphouët-Boigny (c'est dans ce palais que se trouve le caveau familial où ce dernier est inhumé" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Détails</a>
+              <a href="connexion.html" class="btn btn-outline-light" style="background-color: #31b0d5; color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+
+
+
+<!-- Debut de la modale d'inscription	-->
+	
+<div id="modal_inscription" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal"> <span class="glyphicon glyphicon-remove-circle"></span> </button>
+
+				<h1 class="modal-title">Inscription</h1>
+			</div>
+
+			<div class="modal-body">
+				<form>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+								<input type="text" name="nom" placeholder="Nom" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+								<input type="text" name="prenom" placeholder="Prenom" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-envelope" id="connect-icon"></span> </span> 
+								<input type="email" name="email" placeholder="E-mail" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group"> 
+								<span class="input-group-addon" id="basic-addon1">Sexe</span> 
+									<select class="form-control" name="sexe" required>
+										<option selected>--- Selectionner ---</option>
+										<option value="M">Homme</option>
+										<option value="F">Femme</option>
+									</select>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-globe" id="connect-icon"></span> </span> 
+								<input type="text" name="pays" placeholder="Pays" class="form-control" aria-describedby="basic-addon1" list="listepays" required >
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-pencil" id="connect-icon"></span> </span> 
+								<input type="text" name="ville" placeholder="Ville" class="form-control" aria-describedby="basic-addon1" list="listeville" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-envelope" id="connect-icon"></span> </span> 
+								<input type="text" name="login" placeholder="Login" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-lock" id="connect-icon"></span> </span>
+								<input type="password" name="password" placeholder="Mot de passe" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-lock" id="connect-icon"></span> </span>
+								<input type="password" name="cpassword" placeholder="Confirmer mot de passe" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" name="valider" value="S'inscrire" class="btn btn-lg btn-centrer">					
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<!-- Fin de la modale d'inscription	-->
+
+
+
+
+
+
+
+
+
+
+	<footer>
+	<div class="row footer">
+		<div class="col-md-3">
+			<h4>Services</h4>
+			<ul>
+				<li><a href="siteTouristique.html">Visites Guidée</a></li>
+				<br>
+				<li><a href="hotel.html">Hôtel</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Top Destination</h4>
+			<ul>
+				<li><a href="#">La Basilique Notre dame de la Paix</a></li>
+				<li><a href="#">Le lac aux caimains</a></li>
+				<li><a href="#">La Fondation Felix Houphouet Boigny</a></li>
+				<li><a href="#">Le Palais Presidentiel</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Top Réservation</h4>
+			<ul>
+				<li><a href="#">Hôtel President</a></li>
+				<li><a href="#">Hôtel Parlementaire</a></li>
+				<li><a href="#">Hôtel Fondy</a></li>
+				<li><a href="#">Hôtel Le Rocher</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Contact</h4>
+			<ul>
+				<li><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:yakro@tourisme.ci">yakro@tourisme.ci</a></li>
+				<br>
+				<li><span class="glyphicon glyphicon-earphone"></span> <a href="#"> +225 00 00 00 00 </a></li>
+			</ul>
+			
+		</div>
+	</div>
+	<p>&copy; 2019 YakroTourisme</p>
+</footer>
+
+<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr" dir="ltr">
+	<meta charset="utf-8">
+	<title> Yakro Tourisme - Hotels </title>
+	<link rel="icon" href="public/images/favicon.ico" sizes="32x32" type="image/ico">
+
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="nav-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+
+				<a href="index.html" class="navbar-brand  nomsite" id="text-logo"> <img src="public/images/logo.jpg" class="img-responsive img-circle" width="30" height="30"> YT </a>
+			</div>
+			<div class="collapse navbar-collapse" id="menu">
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+							<input type="text" name="login" placeholder="Login" class="form-control input-sm" aria-describedby="basic-addon1" required>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon2"> <span class="glyphicon glyphicon-eye-close" id="connect-icon"></span> </span> 
+							<input type="password" name="password" placeholder="Mot de Passe" class="form-control input-sm" aria-describedby="basic-addon2" required>
+						</div>
+					</div>
+					<input type="submit" name="connecter" value="connexion" class="btn btn-info btn-sm">
+					<a href="" data-toggle="modal" data-target="#modal_inscription" id="text-menu" class="incr">S'inscrire</a>
+					</form>
+
+					<ul class="nav navbar-nav" >
+						<li><a href="index.html" id="text-menu">Accueil</a></li>
+						<li><a href="siteTouristique.html" id="text-menu">Sites Touristiques</a></li>
+						<li class="dropdown"> 
+							<a href="#" class="dropdown" data-toggle="dropdown" id="text-menu">Réservation<span class="caret"></span></a> 
+							<ul class="dropdown-menu" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646);">
+								<li><a href="hotel.html" id="text-menu">Hôtels</a></li>
+								<li><a href="siteTouristique.html" id="text-menu">Visites Guidées</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html" id="text-menu">Contact</a></li>
+						<li><a href="#" id="text-menu">A Propos</a></li>
+					</ul>
+				
+			</div>
+			
+		</nav>
+	</header>
+
+
+
+
+
+
+
+
+<div class="container-fluid ">
+  <div class="row bloc">
+    <h1 class="text-center" style="color: #ff4646; font-family: Snell Roundhand; font-size: 80px;">Hôtels</h1>
+    <div class="blocs"></div><div class="blocs"></div>
+    <div class="col-lg-3" >
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/1.jpg" alt="..." class="img-responsive">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Président</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">9/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/2.jpg" alt="..." class="img-responsive" height="500">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Parlemenataire</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> 
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/3.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Fondy</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8.5/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/4.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center"> Royal Hôtel </h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+ </div>  
+
+
+
+ <div class="row bloc">
+    <div class="col-lg-3" >
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/5.jpg" alt="..." class="img-responsive">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Berah</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/6.jpg" alt="..." class="img-responsive" height="500">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Fanon</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> 
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">6/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/7.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Millionnaire</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8.5/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/8.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Hôtel des hotes</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+ </div>
+
+
+
+ <div class="row bloc">
+    <div class="col-lg-3" >
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/9.jpg" alt="..." class="img-responsive">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Klaihou</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">5/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/10.jpg" alt="..." class="img-responsive" height="500">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Roger</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> 
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/11.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Assandy</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">7/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/12.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center"> Hôtel Akraya </h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+ </div>  
+
+
+
+ <div class="row bloc">
+    <div class="col-lg-3" >
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/13.jpg" alt="..." class="img-responsive">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Linhya</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">9/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/14.jpg" alt="..." class="img-responsive" height="500">
+        <div class="caption">
+            <h3 class="text-center">Hôtel la reserve</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> 
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/15.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center">Hôtel Assabou</h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8.5/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="thumbnail" style="box-shadow: lightgrey 10px 12px 10px 10px;">
+        <img src="public/images/hotels/16.jpg" alt="...">
+        <div class="caption">
+            <h3 class="text-center"> Hôtel Habitat </h3>
+            <p style="color: #f1c40f;;"> 
+              <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span> <span class="glyphicon glyphicon-star-empty"></span>
+            </p><br>
+            <b>Avis:</b> <span class="pull-right">8/10</span>
+            <br><br>
+            <p class="text-center">
+              <a href="connexion.html" class="btn btn-outline-light" style="background-image: linear-gradient(90deg, #ff5722d1, #ff4646); color: white;">Réserver</a>
+            </p>
+        </div>
+      </div>
+    </div>
+ </div>
+</div>
+
+
+
+
+
+<!-- Debut de la modale d'inscription	-->
+	
+<div id="modal_inscription" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal"> <span class="glyphicon glyphicon-remove-circle"></span> </button>
+
+				<h1 class="modal-title">Inscription</h1>
+			</div>
+
+			<div class="modal-body">
+				<form>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+								<input type="text" name="nom" placeholder="Nom" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user" id="connect-icon"></span> </span> 
+								<input type="text" name="prenom" placeholder="Prenom" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-envelope" id="connect-icon"></span> </span> 
+								<input type="email" name="email" placeholder="E-mail" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group"> 
+								<span class="input-group-addon" id="basic-addon1">Sexe</span> 
+									<select class="form-control" name="sexe" required>
+										<option selected>--- Selectionner ---</option>
+										<option value="M">Homme</option>
+										<option value="F">Femme</option>
+									</select>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-globe" id="connect-icon"></span> </span> 
+								<input type="text" name="pays" placeholder="Pays" class="form-control" aria-describedby="basic-addon1" list="listepays" required >
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-pencil" id="connect-icon"></span> </span> 
+								<input type="text" name="ville" placeholder="Ville" class="form-control" aria-describedby="basic-addon1" list="listeville" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-envelope" id="connect-icon"></span> </span> 
+								<input type="text" name="login" placeholder="Login" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="row" id="bloc-input">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-lock" id="connect-icon"></span> </span>
+								<input type="password" name="password" placeholder="Mot de passe" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-lock" id="connect-icon"></span> </span>
+								<input type="password" name="cpassword" placeholder="Confirmer mot de passe" class="form-control" aria-describedby="basic-addon1" required>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" name="valider" value="S'inscrire" class="btn btn-lg btn-centrer">					
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<!-- Fin de la modale d'inscription	-->
+
+
+
+
+
+
+
+
+
+
+	<footer>
+	<div class="row footer">
+		<div class="col-md-3">
+			<h4>Services</h4>
+			<ul>
+				<li><a href="siteTouristique.html">Visites Guidée</a></li>
+				<br>
+				<li><a href="hotel.html">Hôtel</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Top Destination</h4>
+			<ul>
+				<li><a href="#">La Basilique Notre dame de la Paix</a></li>
+				<li><a href="#">Le lac aux caimains</a></li>
+				<li><a href="#">La Fondation Felix Houphouet Boigny</a></li>
+				<li><a href="#">Le Palais Presidentiel</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Top Réservation</h4>
+			<ul>
+				<li><a href="#">Hôtel President</a></li>
+				<li><a href="#">Hôtel Parlementaire</a></li>
+				<li><a href="#">Hôtel Fondy</a></li>
+				<li><a href="#">Hôtel Le Rocher</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Contact</h4>
+			<ul>
+				<li><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:yakro@tourisme.ci">yakro@tourisme.ci</a></li>
+				<br>
+				<li><span class="glyphicon glyphicon-earphone"></span> <a href="#"> +225 00 00 00 00 </a></li>
+			</ul>
+			
+		</div>
+	</div>
+	<p>&copy; 2019 YakroTourisme</p>
+</footer>
+
+<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
